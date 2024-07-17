@@ -1,0 +1,5 @@
+#
+
+ls # list
+ls -l # list viw
+uname -a
