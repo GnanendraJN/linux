@@ -1,0 +1,9 @@
+grep is to sreach the reguler expression
+And can also say that "earch and match patterns within text files"
+
+grep [options] pattern fileName
+
+Options
+----------
+-i >> case insensitive
+

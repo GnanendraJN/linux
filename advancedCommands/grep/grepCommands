@@ -1,0 +1,14 @@
+
+grep --colour=auto error learningLog.log # colour adds different color to the search keyword
+grep error learningLog.log log.txt # searching from both the files
+grep --colour=auto -i error learningLog.log # -i signifies case insensitive
+grep --colour=auto -v error learningLog.log # -v signifies ignoring/other then serach pattern
+grep -q error learningLog.log 
+echo $?
+grep error learningLog.log
+grep  "error|message" learningLog.log
+grep --colour=auto -E "error|message" learningLog.log
+
+curl -v https://reqres.in/api/users/2
+
+

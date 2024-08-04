@@ -1,0 +1,24 @@
+echo "this will print"
+
+# To provide a tab space
+echo -e "Apple \tOrange \tPapaya" 
+
+# to remove the space
+echo -e "Apple \bOrange \bPapaya"
+
+# to display in new line
+echo -e "Apple \nOrange \nPapaya"
+
+echo -e "Apple \vOrange \vPapaya"
+
+# it will generete a beep and displays the content
+echo "\a anyString"
+
+# To pass the value to a file
+echo "This will be redirected to a new file" > fileName
+
+# to append a file
+echo "Anything to append the file" >> canBeExistingFile.txt
+
+
+

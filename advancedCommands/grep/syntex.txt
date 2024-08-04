@@ -1,0 +1,4 @@
+grep [option] expression file
+
+example:
+grep "debug" project.log
